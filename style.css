@@ -1,0 +1,72 @@
+header {
+    position: relative;
+    background-color: #42cef4;
+    padding: 10px;
+    color: #fff;
+}
+
+main {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row wrap;
+    
+}
+
+main>span {
+    margin: 5px;
+    position: relative;
+    background-color: #f9954d;
+    padding: 2%;
+    width: 180px;
+    height: 130px;
+}
+
+.btnClr {
+    background-color: #72f520ba;
+    border-radius: 25%;
+    color: white;
+    padding: 8px;
+    margin: auto;
+    display: block;
+    top: 20px;
+    position: relative;
+}
+
+main span.tagClr {
+    margin: 5px;
+    position: relative;
+    background-color: #42cef4;
+    padding: 2%;
+    width: 180px;
+    height: 130px;
+}
+
+.btnCenter {
+    display: block;
+    margin: 0 auto;
+    background-color: #72f520ba;
+    padding: 5px 25px;
+    border-radius: 22%;
+    margin-top: 10px;
+    border: none;
+}
+
+.removeBtn {
+    position: absolute !important;
+    right: -10px;
+    top: -15px;
+    background-color: #ea4967;
+    border-radius: 50%;
+    color: #fff;
+    padding: 10px;
+}
+
+input[type=text] {
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: -10px;
+}
